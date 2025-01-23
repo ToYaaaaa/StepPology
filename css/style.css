@@ -55,4 +55,41 @@
     /* background-color: black; */
 }
 
-/* hero img */
+/* main page */
+.mainpagewrapper {
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    /* position: relative; */
+}
+
+.mainpagewrapper .kanan{
+    width: 50%;
+    height: 100rem;
+    background-color: black;
+}
+
+.mainpagewrapper .kiri {
+    width: 50%;
+    height: 100rem;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* background-color: red; */
+}
+.mainpagewrapper .kiri .big{
+    position: absolute;
+    left: 2%;
+    top: 20%;
+}
+.mainpagewrapper .kiri .big img{
+    width: 700px;
+    border-radius: 2%;
+}
+.mainpagewrapper  .kiri .small{
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+.mainpagewrapper .kiri .small img {
+    width: 150px;
+}
