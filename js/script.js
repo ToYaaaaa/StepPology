@@ -1,5 +1,5 @@
+// navbar
 // navtime
-
 function timer(){
     let timewrap = document.querySelector(".time");
     const now = new Date();

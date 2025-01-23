@@ -5,11 +5,12 @@
     /* width: 100%; */
 }
 
+/* navbar */
 .navbar-section .navtime p{
     color: white;
     font-size: 1rem;
     text-align: center;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     line-height: 2rem;
 }
 
@@ -17,12 +18,23 @@
     display: flex;
     justify-content: space-evenly;
     height: 5rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 2rem;
     /* background-color: black; */
 }
 
+.navbar-section .navbar .kanan{
+    background-color: black;
+    padding: .5rem;
+    cursor: pointer;
+}
 .navbar-section .navbar .kanan h1{
     font-size: 1.5rem;
     font-weight: bold;
+    line-height: .8rem;
+    color: white;
 }
 
 .navbar-section .navbar .tengah ul{
@@ -32,8 +44,15 @@
     justify-content: space-evenly;
     /* background-color: black; */
 }
+.navbar-section .navbar .tengah a {
+    text-decoration: none;
+    color: black;
+}
 
 .navbar-section .navbar .kiri i{
     margin-left: 1.5rem;
+    cursor: pointer;
     /* background-color: black; */
 }
+
+/* hero img */
