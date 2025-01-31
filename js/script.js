@@ -42,3 +42,19 @@ buttonss.forEach(button => {
 );
 
 // kanan main page quantity
+const plus = document.getElementById("plus");
+const number = document.getElementById("number");
+const min = document.getElementById("min");
+
+plus.addEventListener("click", ()=>{
+    let curentvalue = parseInt(number.textContent);
+    number.textContent = curentvalue + 1;
+});
+
+min.addEventListener("click", () => {
+    let curentvalue = parseInt(number.textContent);
+    number.textContent = curentvalue - 1;
+    if(curentvalue < 1){
+        number.textContent = curentvalue + 1;
+    }
+});
