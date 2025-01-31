@@ -59,7 +59,7 @@
     /* background-color: black; */
 }
 
-/* main page */
+/* main page kiri*/
 .mainpagewrapper {
     width: 100%;
     margin-top: 5rem;
@@ -98,4 +98,22 @@
     width:200px;
     border-radius: 5%;
     margin-left: 10px;
+}
+
+/* main page kanan */
+.kanan .categories {
+    display: flex;
+    width: 25rem;
+    justify-content: space-between;
+}
+
+.kanan .categories .satu,.dua,.tiga {
+    border-radius: 999px;
+    background-color: rgba(171, 171, 171, .2);
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.kanan .description h3{
+    font-weight: bold;
 }
