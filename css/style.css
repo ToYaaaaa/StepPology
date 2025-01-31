@@ -145,3 +145,35 @@
 .kanan .chart .region .active{
     background-color: white;
 }
+
+.kanan .chart .sizeshoes{
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    width: 70%;
+}
+
+.kanan .chart .sizeshoes button{
+    padding: 5px 10px;
+    border-radius: 999px;
+    margin: 10px 10px 10px 10px;
+}
+
+.kanan .chart .sizeshoes .active{
+    background-color: white;
+}
+
+.kanan .quantity {
+    display: flex;
+    width:15%;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.kanan .quantity button {
+    padding: 3px 15px;
+    font-weight: bold;
+    border-radius: 999px;
+}
