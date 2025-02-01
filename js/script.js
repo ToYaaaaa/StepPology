@@ -58,3 +58,14 @@ min.addEventListener("click", () => {
         number.textContent = curentvalue + 1;
     }
 });
+
+// kanan main page button bawah
+const buttonbawah = document.querySelectorAll(".kanan .buttonbawah button");
+
+buttonbawah.forEach(button => {
+    button.addEventListener("click", function(){
+        buttonbawah.forEach(btn => btn.classList.remove("active"));
+        this.classList.add("active");
+    }
+    );}
+);

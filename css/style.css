@@ -155,13 +155,17 @@
 }
 
 .kanan .chart .sizeshoes button{
-    padding: 5px 10px;
+    padding: 5px 20px;
     border-radius: 999px;
     margin: 10px 10px 10px 10px;
+    border: none;
 }
 
 .kanan .chart .sizeshoes .active{
-    background-color: white;
+    background-color: rgba(0,0,0, 1);
+    color: white;
+    /* border: 2px solid aqua; */
+
 }
 
 .kanan .quantity {
@@ -176,4 +180,30 @@
     padding: 3px 15px;
     font-weight: bold;
     border-radius: 999px;
+}
+
+.kanan .discount {
+    width: 60%;
+    height: 6%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(171, 171, 171, .1);
+}
+
+.kanan .buttonbawah{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.kanan .buttonbawah .buynow, .addtochart{
+    padding: 10px 60px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.kanan .buttonbawah .active {
+    background-color: black;
+    color: white;
 }
