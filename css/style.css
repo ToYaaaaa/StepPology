@@ -69,7 +69,7 @@
 
 .mainpagewrapper .kanan{
     width: 50%;
-    height: 100rem;
+    height: 77rem;
     /* background-color: black; */
 }
 
@@ -206,4 +206,24 @@
 .kanan .buttonbawah .active {
     background-color: black;
     color: white;
+}
+
+/* bottom page */
+.bottom {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom img{
+    width: 200px;
+}
+
+.bottom .image1, .image2, .image3{
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(171, 171, 171, .2);
+    justify-content: center;
 }
